@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Your CSS styles go here */
+.container {
+    display: flex;
+}
+
+.single {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.title {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.89px;
+    text-align: left;
+
+}
+
+.vendor {
+    color: #B9BBBF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+
+}
+
+
+.product-image {
+    flex: 1 0 50%;
+    margin-right: 20px;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details {
+    flex: 1 1 50%;
+}
+
+.vendor {
+    font-weight: bold;
+}
+
+.price {
+    font-size: 18px;
+    color: #3A4980;
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41.15px;
+    text-align: left;
+
+}
+
+.compare-price {
+    text-decoration: line-through;
+    color: #00000080;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25.41px;
+    text-align: left;
+
+}
+
+.price-cont {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+}
+
+.percent-off {
+    color: #FF000080;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25.41px;
+    text-align: left;
+
+}
+
+.selector {
+    margin-top: 10px;
+
+    display: flex;
+    width: 292px;
+    height: 64px;
+    gap: 12px;
+    opacity: 0px;
+
+}
+
+.color-add {
+    width: 50px;
+    height: 50px;
+    top: 7px;
+    left: 7px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+button {
+    border: none;
+    outline: none;
+    color: #ffff;
+}
+
+.quantity-selector {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    width: 169px;
+    height: 59px;
+    top: 549px;
+    left: 778px;
+    gap: 0px;
+    background-color: #F3F3F3;
+    border-radius: 30px;
+    opacity: 0px;
+
+
+}
+
+.add-to-cart {
+    width: 309px;
+    height: 59px;
+    top: 549px;
+    left: 966px;
+    gap: 0px;
+    border-radius: 29.5px;
+    opacity: 0px;
+    background-color: #3A4980;
+
+
+}
+
+.add-to-cart-message {
+    display: none;
+    color: green;
+    margin-top: 10px;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .container {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
